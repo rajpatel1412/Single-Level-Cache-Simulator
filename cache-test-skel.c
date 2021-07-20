@@ -45,18 +45,6 @@ int get_cache_size(int block_size) {
     }
     c += block_size;
   }
-  /*int initSize = block_size;
-  access_cache(0);
-  while(access_cache(0))
-  {
-    c = block_size;
-    while(c <= initSize)
-    {
-      c += block_size;
-      access_cache(c);
-    }
-    initSize += block_size;
-  }*/
   return c;
 }
 
@@ -76,7 +64,7 @@ int get_cache_assoc(int cache_size) {
     e = 0;
     for (int i = cache_size; i <= size; i += cache_size, e++) 
       access_cache(i); 
-    size += cache_size;
+    size += cache_size; 
   }
   return e;
 }
