@@ -1,0 +1,27 @@
+{
+  "mystery0.o": {
+    "mark": 0,
+    "comment": "Program exited with return code Or Output did not match. Answer (cache size = 131072, assoc = 2, blocksize = 2"
+  },
+  "mystery1.o": {
+    "mark": 0,
+    "comment": "Program exited with return code Or Output did not match. Answer (cache size = 65536, assoc = 2, blocksize = 16"
+  },
+  "mystery2.o": {
+    "mark": 0,
+    "comment": "Program exited with return code Or Output did not match. Answer (cache size = 8192, assoc = 8, blocksize = 8"
+  },
+  "test1": {
+    "mark": 10,
+    "comment": "Program ran and output matched."
+  },
+  "test2": {
+    "mark": 10,
+    "comment": "Program ran and output matched."
+  },
+  "test3": {
+    "mark": 10,
+    "comment": "Program ran and output matched."
+  },
+  "userid": "GithubID:assignment-4-rajpatel1412"
+}

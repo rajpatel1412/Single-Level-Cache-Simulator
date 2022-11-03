@@ -1,0 +1,20 @@
+hits:12 misses:5 evictions:0
+hits:15 misses:3 evictions:0
+hits:16 misses:1 evictions:0
+hits:1 misses:1 evictions:0
+hits:285936 misses:1028 evictions:0
+hits:290387 misses:1315 evictions:0
+hits:371 misses:42 evictions:0
+hits:4 misses:1 evictions:0
+hits:6 misses:3 evictions:0
+hits:9 misses:3 evictions:0
+traces/dave.trace
+traces/fifo_l.trace
+traces/fifo_m1.trace
+traces/fifo_s1.trace
+traces/fifo_s2.trace
+traces/fifo_s3.trace
+traces/long.trace
+traces/small.trace
+traces/yi2.trace
+traces/yi.trace

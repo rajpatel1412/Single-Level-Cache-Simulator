@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set=$1
+ass=$2
+block=$3
+
+
+
+for file in $(ls traces/*); do ./cache -s $set -E $ass -b $block -t $file; echo $file; done | sort > tmpfile_1 
+for file in $(ls traces/*); do ./cache-ref -s $set -E $ass -b $block -L -t $file; echo $file; done | sort > tmpfile_2 
+comm -23 tmpfile_1 tmpfile_2 
